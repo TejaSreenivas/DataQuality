@@ -1,0 +1,49 @@
+{
+	"algorithm_weight": {
+		"isolation_forest" : 0.5,
+		"multivariant_gauss": 0.5
+	},
+
+	"numeric_columns": [
+		{
+			"column": "fare_amount",
+			"sensitivity": 1
+		},
+		{
+			"column": "extra",
+			"sensitivity": 1
+		},
+		{
+			"column": "mta_tax",
+			"sensitivity": 1
+		},
+		{
+			"column": "tip_amount",
+			"sensitivity": 1
+		},
+		{
+			"column": "tolls_amount",
+			"sensitivity": 1
+		},
+		{
+			"column": "improvement_surcharge",
+			"sensitivity": 1
+		},
+		{
+			"column": "total_amount",
+			"sensitivity": 1
+		},
+		{
+			"column": "congestion_surcharge",
+			"sensitivity": 1
+		}		
+	],
+
+	"default_sensitivity": 1,
+
+	"files": [
+		"D:/GitHub/DQ/yellow_tripdata_2019-01.csv"
+	],
+
+	"percentage": 0.0001
+}
