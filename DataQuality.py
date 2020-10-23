@@ -194,8 +194,8 @@ if __name__ == '__main__':
         detect = load(sys.argv[1])
         dataset = pd.read_csv(sys.argv[2])
     elif len(sys.argv) == 2:
-        input_json = sys.argv[1]
-        with open(input_json) as file:
+        config_json = sys.argv[1]
+        with open(config_json) as file:
             parameters = json.load(file)
         pprint(parameters)
         dataset = list()
