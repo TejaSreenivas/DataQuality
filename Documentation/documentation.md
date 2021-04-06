@@ -43,7 +43,7 @@ Level 2 API
 
 When data is fed to the program for the first time -
 
--   python DataQuality.py \<input json file\>
+-   python DataQuality.py \<config json file\>
 
 outputs the following files:
 
